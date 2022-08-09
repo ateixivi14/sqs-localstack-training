@@ -1,0 +1,13 @@
+cloud:
+  aws:
+    stack:
+      auto: false
+    region:
+      static: eu-west-1
+      auto: false
+    credentials:
+      access-key: test
+      secret-key: test
+    queue:
+      uri: http://localhost:4566
+      name: not-fifo-queue

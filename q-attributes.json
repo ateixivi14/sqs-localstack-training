@@ -1,0 +1,5 @@
+{
+    "DelaySeconds": "30",
+    "MessageRetentionPeriod": "120",
+    "ReceiveMessageWaitTimeSeconds": "10"
+}

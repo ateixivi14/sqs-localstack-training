@@ -1,0 +1,17 @@
+server:
+  port: 8088
+  
+cloud:
+  aws:
+    stack:
+      auto: false
+    region:
+      static: eu-west-1
+    credentials:
+      access-key: test
+      secret-key: test
+    end-point:
+      uri: http://localhost:4566
+    sqs:
+      test:
+        queue: http://localhost:4566/000000000000/not-fifo-queue
